@@ -110,3 +110,10 @@ input.onGesture(Gesture.Shake, function () {
     basic.showString("Ahhhh!!")
     music.startMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once)
 })
+basic.showLeds(`
+    . # # # .
+    . . # . .
+    # . # . #
+    . # # # .
+    . . . . .
+    `)
